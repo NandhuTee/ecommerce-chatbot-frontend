@@ -25,7 +25,7 @@ A simple chatbot project built using React (frontend) and Flask (backend) to sim
 ## 🖼️ Screenshot
 
 ### Chatbot UI
-![Frontend Screenshot](./public/images/Screenshot%202025-06-24%20113712.png)
+![Frontend Screenshot](./public/images/screenshot.png)
 
 ---
 
@@ -59,9 +59,7 @@ npm run dev
 - User types a message into the chatbot.
 
 - Axios sends a POST request to:
-```
-https://ecommerce-chatbot-backend-glj7.onrender.com/api/chat/message
-```
+
 - Flask receives the message and returns a reply.
 
 - React updates the UI to display bot response.
