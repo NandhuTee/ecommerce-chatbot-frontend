@@ -12,8 +12,9 @@ const Chatbot = () => {
     setMessages((prev) => [...prev, userMsg]);
   setInput("");
   try {
-    const res = await axios.post('http://localhost:5000/api/chat/message', {
+    const res = await axios.post('https://ecommerce-chatbot-backend-glj7.onrender.com/api/chat/message', {
       message: input,
+      history: messages.map((msg) => ({ sender: msg.sender, text: msg.text })),
     });
 
     const botMsg = { sender: "bot", text: res.data.reply };
