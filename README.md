@@ -1,12 +1,78 @@
-# React + Vite
+# 🤖 Ecommerce Chatbot – Cylinder Booking Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple chatbot project built using React (frontend) and Flask (backend) to simulate cylinder booking conversations. Deployed on **Vercel** (frontend) and **Render** (backend).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Links
 
-## Expanding the ESLint configuration
+- 🔸 **Frontend:** [https://ecommerce-chatbot-frontend.vercel.app](https://ecommerce-chatbot-frontend.vercel.app)
+- 🔸 **Backend:** [https://ecommerce-chatbot-backend-glj7.onrender.com](https://ecommerce-chatbot-backend-glj7.onrender.com)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Features
+
+- React + Vite-based chatbot UI
+- Flask REST API for message processing
+- Axios for HTTP requests
+- Basic styling + user-friendly layout
+- CORS enabled for cross-origin requests
+- Easy deployment on Vercel and Render
+
+---
+
+## 🖼️ Screenshot
+
+### Chatbot UI
+![Frontend Screenshot](./public/images/Screenshot%202025-06-24%20113712.png)
+
+---
+
+## 📁 Project Structure
+/frontend → React + Vite frontend
+/backend → Flask backend API
+
+
+---
+
+## 🚀 Local Setup
+
+### ▶️ Backend (Flask)
+
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate   # Windows
+pip install -r requirements.txt
+python app.py
+ ```
+ 
+ ### Frontend (React)
+```
+cd frontend
+npm install
+npm run dev
+```
+
+# 📝 How It Works
+- User types a message into the chatbot.
+
+- Axios sends a POST request to:
+```
+https://ecommerce-chatbot-backend-glj7.onrender.com/api/chat/message
+```
+- Flask receives the message and returns a reply.
+
+- React updates the UI to display bot response.
+
+# 🛠️ Tech Stack
+-**Frontend:** React, Vite, Axios
+
+-**Backend:** Python, Flask, Flask-CORS
+
+-**Deployment:** Vercel (frontend), Render (backend)
+
+# 📚 License
+
+- MIT
