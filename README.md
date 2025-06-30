@@ -6,7 +6,7 @@ A simple chatbot project built using React (frontend) and Flask (backend) to sim
 
 ## 🌐 Live Links
 
-- 🔸 **Frontend:**[https://ecommerce-chatbot-frontend-xdsk.vercel.com](https://ecommerce-chatbot-frontend-xdsk.vercel.app.com)
+- 🔸 **Frontend:**[https://ecommerce-chatbot-frontend-xdsk.vercel.com](https://ecommerce-chatbot-frontend-xdsk.vercel.app/)
 - 🔸 **Backend:** [https://ecommerce-chatbot-backend-glj7.onrender.com](https://ecommerce-chatbot-backend-glj7.onrender.com)
 
 ---
